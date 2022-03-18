@@ -1,0 +1,524 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 1500px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    width: 400px;
+    float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #612897;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid #612897;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #612897;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #612897;
+    width: 100%;
+    line-height: 50px;
+}
+
+.tbl-biru {
+    background: #612897;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tbl-biru:hover {
+    background: #FE83C6;
+    text-decoration: none;
+}
+
+.tbl-pink {
+    background: #ff5e00;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tbl-pink:hover {
+    background: #612897;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    color: #000000;
+    width: 100%;
+    line-height: 50px;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-weight: 800px;
+    font-size: 40px;
+    margin-bottom: auto;
+    color: #612897;
+    width: 100%;
+    line-height: 50px;
+}
+
+.kolom1 .nvidia {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    color: #000000;
+}
+
+.tbl-hijau {
+    background: #612897;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tbl-hijau:hover {
+    background: #06a301;
+    text-decoration: none;
+}
+
+
+h5 {
+    font-family: sans-serif;
+    font-weight: 800px;
+    font-size: 40px;
+    margin-bottom: auto;
+    color: #612897;
+    width: 100%;
+    line-height: 50px;
+}
+
+h6 {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    color: #000000;
+    width: 100%;
+    line-height: 50px;
+}
+
+.tbl-merah {
+    background: #612897;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tbl-merah:hover {
+    background: #d31515;
+    text-decoration: none;
+}
+
+.kolom2 .ryzen {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    color: #000000;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+h7 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: -30px;
+    margin-top: -30px;
+    color: #000000;
+    width: 100%;
+    line-height: 50px;
+}
+
+.RAM-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.RAM-list2 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gambar-ram {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.gambar-ram2 {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.gambar-ram img {
+    width: 100%;
+    border-radius: 40%;
+    margin-bottom: -60px;
+}
+
+.gambar-ram2 img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: -60px;
+}
+
+.gambar-ram p {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.gambar-ram2 p {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.kolom3 .deskripsi1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #612897;
+    margin-bottom: -10px;
+    margin-top: 0px;
+}
+
+.tbl-RGB {
+    background: #000000;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tbl-RGB:hover {
+    background: #612897;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.mobo-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gambar-mobo {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.gambar-mobo img {
+    width: 100%;
+    border-radius: 10%;
+    margin-bottom: -45px;
+}
+
+.gambar-mobo p {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #000000;
+}
+
+.mobo {
+    text-align: center;
+    width: 100%;
+}
+
+.kolom5 .deskripsi3 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #612897;
+    margin-bottom: -10px;
+    margin-top: 50px;
+}
+
+.tbl-mobo {
+    background: #000000;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tbl-mobo:hover {
+    background: #612897;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h10 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: -30px;
+    margin-top: -30px;
+    color: #000000;
+    width: 100%;
+    line-height: 50px;
+}
+
+.tengah1 {
+    text-align: center;
+    width: 100%;
+}
+
+.kolom4 .deskripsi2 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #612897;
+    margin-bottom: -10px;
+    margin-top: 150px;
+}
+
+h8 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: -30px;
+    margin-top: -30px;
+    color: #000000;
+    width: 100%;
+    line-height: 50px;
+}
+
+.partner-list {
+    width: 100%;
+    margin-bottom: 100px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 190px;
+    border-radius: 30%;
+}
+
+#contact {
+    background: #612897;
+    padding: 60px 0px 60px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h9 {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    margin-bottom: 90px;
+    margin-top: -50px;
+    color: #ffffff;
+    width: 100%;
+    line-height: 50px;
+}
+
+.footer-section .contact {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: -10px;
+    margin-top: 10px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50x;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 10px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .gambar-ram {
+        width: 50%;
+    }
+
+    .gambar-ram2 {
+        width: 50%;
+    }
+
+    .gambar-mobo {
+        width: 50%;
+    }
+
+    .kartu-partner {
+        width: 50%;
+    }
+}
